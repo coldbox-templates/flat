@@ -26,4 +26,4 @@ effective-pom.xml
 /coldbox/**
 /testbox/**
 /modules/**
-/lib/java/**
+/lib/**

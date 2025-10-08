@@ -25,12 +25,12 @@
         "commandbox-boxlang":"*",
         "commandbox-cfformat":"*"
     },
+    "dependencies":{
+        "coldbox":"be"
+    },
     "installPaths":{
         "coldbox":"coldbox/",
         "testbox":"testbox/"
-    },
-    "dependencies":{
-        "coldbox":"^7.0.0"
     },
     "scripts":{
         "postInstall":"pathExists .env || cp .env.example .env && package set ignore=[]",
