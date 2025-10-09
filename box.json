@@ -3,7 +3,7 @@
     "version":"7.5.0",
     "author":"You",
     "location":"forgeboxStorage",
-    "slug":"cbtemplate-advanced-script",
+    "slug":"cbtemplate-flat",
     "createPackageDirectory":false,
     "type":"mvc",
     "keywords":"",
