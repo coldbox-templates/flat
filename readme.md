@@ -22,7 +22,7 @@
 
 ----
 
-# ColdBox Elixir Application Template
+# ColdBox Flat Application Template
 
 This template can be your starting ground for your modern ColdFusion (cfml) web applications.  You must use [CommandBox](http://www.ortussolutions.com/products/commandbox) to track your dependencies and start embedded servers.
 
