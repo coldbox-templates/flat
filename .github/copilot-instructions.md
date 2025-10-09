@@ -129,7 +129,7 @@ component extends="coldbox.system.testing.BaseTestCase" appMapping="/app" {
 
 ### Common Testing Mistakes
 
-❌ **Forgetting `setup()` in `beforeEach()`** - Tests share request context and fail mysteriously  
+❌ **Forgetting `setup()` in `beforeEach()`** - Tests share request context and fail mysteriously
 ✅ **Always call `setup()`** - Ensures each test gets fresh request context
 
 ## 🛠️ Build Commands
@@ -237,13 +237,13 @@ component {
 component {
     // Inject by model name (auto-resolved from models/ folder)
     property name="userService" inject="UserService";
-    
+
     // Inject by ID
     property name="cache" inject="cachebox:default";
-    
+
     // Inject logger for this component
     property name="log" inject="logbox:logger:{this}";
-    
+
     // Provider injection (lazy loading)
     property name="userServiceProvider" inject="provider:UserService";
 }
