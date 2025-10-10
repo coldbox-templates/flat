@@ -1,6 +1,6 @@
 {
     "name":"Flat ColdBox App Template",
-    "version":"8.0.0s",
+    "version":"8.1.0",
     "author":"You",
     "location":"forgeboxStorage",
     "slug":"cbtemplate-flat",
@@ -18,11 +18,11 @@
     "contributors":[],
     "ignore":[
         "changelog.md",
-		".github/ISSUE_TEMPLATE",
-		".github/workflows/*",
-		".github/CONTRIBUTING.md",
-		".github/FUNDING.YML",
-		".github/PULL_REQUEST_TEMPLATE.md"
+        ".github/ISSUE_TEMPLATE",
+        ".github/workflows/*",
+        ".github/CONTRIBUTING.md",
+        ".github/FUNDING.YML",
+        ".github/PULL_REQUEST_TEMPLATE.md"
     ],
     "devDependencies":{
         "testbox":"^6.0.0",
