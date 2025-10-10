@@ -27,9 +27,7 @@
     "devDependencies":{
         "testbox":"^6.0.0",
         "commandbox-boxlang":"*",
-        "commandbox-cfformat":"*",
-		"coldbox-cli":"*",
-		"testbox-cli":"*"
+        "commandbox-cfformat":"*"
     },
     "dependencies":{
         "coldbox":"be"
