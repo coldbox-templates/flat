@@ -14,7 +14,7 @@ component {
 		 * you create the appropriate functions and define the environment in your .env or
 		 * in the `environments` struct.
 		 */
-		coldbox = {
+		variables.coldbox = {
 			// Application Setup
 			appName                  : getSystemSetting( "APPNAME", "Your app name here" ),
 			eventName                : "event",
@@ -60,7 +60,7 @@ component {
 		 * Custom Settings
 		 * --------------------------------------------------------------------------
 		 */
-		settings = {};
+		variables.settings = {};
 
 		/**
 		 * --------------------------------------------------------------------------
@@ -80,7 +80,7 @@ component {
 		 * Module Loading Directives
 		 * --------------------------------------------------------------------------
 		 */
-		modules = {
+		variables.modules = {
 			// An array of modules names to load, empty means all of them
 			include : [],
 			// An array of modules names to NOT load, empty means none
@@ -94,7 +94,7 @@ component {
 		 * By Default we log to the console, but you can add many appenders or destinations to log to.
 		 * You can also choose the logging level of the root logger, or even the actual appender.
 		 */
-		logBox = {
+		variables.logBox = {
 			// Define Appenders
 			appenders : { coldboxTracer : { class : "coldbox.system.logging.appenders.ConsoleAppender" } },
 			// Root Logger
@@ -108,14 +108,14 @@ component {
 		 * Layout Settings
 		 * --------------------------------------------------------------------------
 		 */
-		layoutSettings = { defaultLayout : "", defaultView : "" };
+		variables.layoutSettings = { defaultLayout : "", defaultView : "" };
 
 		/**
 		 * --------------------------------------------------------------------------
 		 * Custom Interception Points
 		 * --------------------------------------------------------------------------
 		 */
-		interceptorSettings = { customInterceptionPoints : [] };
+		variables.interceptorSettings = { customInterceptionPoints : [] };
 
 		/**
 		 * --------------------------------------------------------------------------
@@ -123,7 +123,7 @@ component {
 		 * --------------------------------------------------------------------------
 		 * Remember that the order of declaration is the order they will be registered and fired
 		 */
-		interceptors = [];
+		variables.interceptors = [];
 
 		/**
 		 * --------------------------------------------------------------------------
@@ -138,7 +138,7 @@ component {
 		 *
 		 * }
 		 */
-		moduleSettings = {};
+		variables.moduleSettings = {};
 
 		/**
 		 * --------------------------------------------------------------------------
@@ -146,7 +146,7 @@ component {
 		 * --------------------------------------------------------------------------
 		 * The available scopes are : session, client, cluster, ColdBoxCache, or a full instantiation CFC path
 		 */
-		flash = {
+		variables.flash = {
 			scope        : "session",
 			properties   : {}, // constructor properties for the flash scope implementation
 			inflateToRC  : true, // automatically inflate flash data into the RC scope
@@ -160,7 +160,7 @@ component {
 		 * App Conventions
 		 * --------------------------------------------------------------------------
 		 */
-		conventions = {
+		variables.conventions = {
 			handlersLocation : "handlers",
 			viewsLocation    : "views",
 			layoutsLocation  : "layouts",
@@ -174,7 +174,7 @@ component {
 	 */
 	function development(){
 		// coldbox.customErrorTemplate = "/coldbox/system/exceptions/BugReport.cfm"; // static bug reports
-		coldbox.customErrorTemplate = "/coldbox/system/exceptions/Whoops.cfm"; // interactive bug report
+		variables.coldbox.customErrorTemplate = "/coldbox/system/exceptions/Whoops.cfm"; // interactive bug report
 	}
 
 }
