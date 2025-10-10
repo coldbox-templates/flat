@@ -30,7 +30,7 @@
         "commandbox-cfformat":"*"
     },
     "dependencies":{
-        "coldbox":"be"
+        "coldbox":"^8.0.0"
     },
     "installPaths":{
         "coldbox":"coldbox/",
