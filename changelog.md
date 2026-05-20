@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [8.3.0] - 2026-05-20
+
 ## [8.2.0] - 2026-05-01
 
 ## [8.1.0] - 2026-03-17
@@ -70,7 +72,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Docker build and compose consolidation to the `build` folder
 - Cleanup of `tests` to new standards
 
-[unreleased]: https://github.com/coldbox-templates/flat/compare/v8.2.0...HEAD
+[unreleased]: https://github.com/coldbox-templates/flat/compare/v8.3.0...HEAD
+[8.3.0]: https://github.com/coldbox-templates/flat/compare/v8.2.0...v8.3.0
 [8.2.0]: https://github.com/coldbox-templates/flat/compare/v8.1.0...v8.2.0
 [8.1.0]: https://github.com/coldbox-templates/flat/compare/v8.0.0s...v8.1.0
 [8.0.0s]: https://github.com/coldbox-templates/flat/compare/v7.4.0...v8.0.0s
