@@ -22,7 +22,7 @@
         "commandbox-boxlang":"*"
     },
     "dependencies":{
-        "coldbox":"^8.0.0"
+        "coldbox":"^8.2.0"
     },
     "installPaths":{
         "coldbox":"lib/coldbox/",
